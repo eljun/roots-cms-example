@@ -32,6 +32,8 @@ module.exports =
     roots_rss_generator(
       folder: "posts"
       output: "./public/feed.xml"
+      settings:
+        site_url: "https://rss-generator.netlify.com"
       )
   ]
 
