@@ -31,7 +31,7 @@ module.exports =
     css_pipeline(files: 'assets/css/*.styl'),
     roots_rss_generator(
       folder: "posts"
-      output: "./public/feed.xml"
+      output: "feed.xml"
       settings:
         site_url: "https://rss-generator.netlify.com"
       )
